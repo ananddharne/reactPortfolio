@@ -1,8 +1,8 @@
 {
-  "name": "justin-chi-portfolio",
-  "description": "Justin's Portfolio",
+  "name": "Anand-portfolio",
+  "description": "Anand's Portfolio",
   "version": "1.0.0",
-  "author": "Justin Chi",
+  "author": "Anand D",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",

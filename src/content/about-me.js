@@ -1,30 +1,30 @@
 export default [
   {
-    input: 'Justin.currentLocation',
-    return: '"San Jose, CA"',
+    input: 'Anand.currentLocation',
+    return: '"Boston, MA"',
   },
   {
-    input: 'Justin.contactInfo',
+    input: 'Anand.contactInfo',
     return:
-      '["<a href="mailto:j.chi2241@gmail.com">j.chi2241@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/justin-chi-64b12b37">LinkedIn</a>", "<a rel="noopener" href="https://github.com/vai0">github</a>"]',
+      '["<a href="mailto:dharneanand92@gmail.com">dharneanand92@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/justin-chi-64b12b37">LinkedIn</a>", "<a rel="noopener" href="https://github.com/vai0">github</a>"]',
   },
   {
-    input: 'Justin.resume',
+    input: 'Anand.resume',
     return:
-      '"<a rel="noopener" href="/justinchi_resume.pdf" target="_blank">justinchi.pdf</a>"',
+      '"<a rel="noopener" href="/anand_resume.pdf" target="_blank">anand_resume.pdf</a>"',
   },
   {
-    input: 'Justin.interests',
-    return: '["design", "basketball", "cooking", "starcraft"]',
+    input: 'Anand.interests',
+    return: '["hiking", "FIFA", "cooking", "reddit", Netflix & code]',
   },
   {
-    input: 'Justin.education',
+    input: 'Anand.education',
     return:
-      '"B.Sc. Structural Engineering - University of California, San Diego"',
+      '"MS Computer Engineering - University of Massachusetts, Lowell"',
   },
   {
-    input: 'Justin.skills',
+    input: 'Anand.skills',
     return:
-      '["Sass", "JavaScript", "Python", "React", "Redux", "Flask", "webpack", "git"]',
+      '["JavaScript", "Python", "React", "Vue", "Django", "webpack", "git"]',
   },
 ];
