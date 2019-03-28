@@ -1,7 +1,7 @@
 import notesapp from 'images/notesapp.png';
 import simon from 'images/simon.png';
 import test from 'images/test.png';
-import wakeybackgrounds from 'images/wakeybackgrounds.png';
+import devops from 'images/devops.png';
 import calculator from 'images/calculator.jpg';
 import portfolio from 'images/portfolio.png';
 import tomsmetal from 'images/tomsmetal.jpg';
@@ -46,7 +46,7 @@ export default [
     title: 'Test setup and configuration',
     description:
       'This project was a part of my current job. I was responsible for setting up and configuring the front-end test environemnt. There were no tests written for the front-end when I joined. Had to set up the test framework Jest from scratch. I cannot display a demo for obvious reasons, but I have attached aa video to demonstrate usage',
-    skills: ['Test framework setup', 'Webpack-test-configuration', 'CI/CD - Devops tooling', 'Testcafe', 'Jest', 'vue-test-utils'],
+    skills: ['Test framework setup', 'Webpack-test-configuration', 'Testcafe', 'Jest', 'vue-test-utils'],
     image: test,
     links: {
       github: 'https://github.com/vai0/portfolio',
@@ -56,12 +56,12 @@ export default [
   {
     title: 'CI/CD Automation and Deployment',
     description:
-      'Worked with various CI clients like CircleCI, GitlabCI, JenkinsCI. Helped setup a standalone version of GitlabCI for our automation pipelines. Since I handle the test frameworks, my job was also to oversee QA Automation and deployment i.e make sure ',
-    skills: ['Test framework setup', 'Webpack-test-configuration', 'CI/CD - Devops tooling', 'Testcafe', 'Jest', 'vue-test-utils'],
-    image: test,
+      'Worked with various CI clients like CircleCI, GitlabCI, JenkinsCI. Helped setup a standalone version of GitlabCI for our automation pipelines. Since I handle the test frameworks, my job was also to oversee QA Automation and deployment i.e make sure there are no broken tests on deploy, fix tests if any found broken and so on.',
+    skills: ['CI/CD - Devops tooling', 'Docker', 'Google Cloud', 'Traefik'],
+    image: devops,
     links: {
-      github: 'https://github.com/vai0/portfolio',
-      preview: 'https://www.hippovideo.io/video/play/YbT0z7y8ZhHR738wvFP39wV0dgygBfgsJXcCfqdBwH8',
+      github: '',
+      preview: '',
     },
   }
 ];
