@@ -16,7 +16,7 @@ export default [
     skills: ['HTML5', 'CSS3', 'Sass', 'JavaScript', 'ES6', 'VueJS', 'vuex', 'Nodejs', 'Firebase'],
     image: notesapp,
     links: {
-      github: 'https://github.com/vai0/travl',
+      github: 'https://github.com/ananddharne/smartNotes',
       preview: 'https://notesapp-6547c.firebaseapp.com/',
     },
   },
