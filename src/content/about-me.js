@@ -6,7 +6,7 @@ export default [
   {
     input: 'Anand.contactInfo',
     return:
-      '["<a href="mailto:dharneanand92@gmail.com">dharneanand92@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/justin-chi-64b12b37">LinkedIn</a>", "<a rel="noopener" href="https://github.com/vai0">github</a>"]',
+      '["<a href="mailto:dharneanand92@gmail.com">dharneanand92@gmail.com</a>", "<a rel="noopener" href="https://www.linkedin.com/in/ananddharne/">LinkedIn</a>", "<a rel="noopener" href="https://github.com/ananddharne  ">github</a>"]',
   },
   {
     input: 'Anand.resume',
