@@ -4,7 +4,7 @@ class Typewriter extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      text: '',
+      headingText: '',
     };
   }
 
@@ -17,14 +17,14 @@ class Typewriter extends React.Component {
       typeSpeed += Math.random() * (maxTypeSpeed - minTypeSpeed) + minTypeSpeed;
       setTimeout(() => {
         str += c;
-        this.setState({ text: str });
+        this.setState({ headingText: str });
       }, initDelay + typeSpeed);
     });
   }
 
   componentDidMount() {
     this.clicketyClack(
-      this.props.text,
+      this.props.headingText,
       this.props.minTypeSpeed,
       this.props.maxTypeSpeed,
       this.props.initDelay
@@ -34,15 +34,17 @@ class Typewriter extends React.Component {
   render() {
     return (
       <div className={this.props.className}>
-        {this.state.text}
+        {this.state.headingText}
         <span>&nbsp;</span>
+        <br></br>
+        <p style={{marginLeft: '285px', fontSize: '27px', marginTop: '50px'}}>I make things!</p>
       </div>
     );
   }
 }
 
 Typewriter.defaultProps = {
-  text: 'Give me something to type!',
+  headingText: 'Give me something to type!',
   minTypeSpeed: 50,
   maxTypeSpeed: 90,
   initDelay: 700,

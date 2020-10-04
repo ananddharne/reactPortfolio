@@ -28,6 +28,14 @@
     "@fortawesome/fontawesome-free-brands": "5.0.13",
     "@fortawesome/fontawesome-free-solid": "5.0.13",
     "@fortawesome/react-fontawesome": "0.0.20",
-    "react-scrollchor": "5.1.0"
+    "aphrodite": "^2.4.0",
+    "aws-sdk": "^2.766.0",
+    "canvas-sketch": "^0.7.4",
+    "radium": "^0.26.0",
+    "react-animations": "^1.0.0",
+    "react-scrollchor": "5.1.0",
+    "sls": "^0.1.0",
+    "three": "^0.120.1",
+    "three-bmfont-text": "^3.0.1"
   }
 }
