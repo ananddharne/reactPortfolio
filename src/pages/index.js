@@ -6,7 +6,6 @@ import About from 'components/About';
 import Projects from 'components/Projects';
 import ContactLinks from 'components/ContactLinks';
 import Footer from 'components/Footer';
-import Form from 'components/Form'
 
 
 import projects from 'content/projects';
@@ -17,7 +16,6 @@ export default class Home extends React.PureComponent {
     return (
       <div className="home-container">
         <Navbar />
-        <Form/>
         <Hero />
         <About statements={statements} />
         <h2 id="projects" className="section-title">

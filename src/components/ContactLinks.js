@@ -1,8 +1,11 @@
 import React from 'react';
+import Form from 'components/Form'
 
 class ContactLinks extends React.PureComponent {
   render() {
     return (
+      <div>
+      <Form/>
       <div className="contact-links">
         <span>
           <a rel="noopener" target="_blank" href="mailto:dharneanand92@gmail.com">
@@ -23,6 +26,7 @@ class ContactLinks extends React.PureComponent {
             github
           </a>
         </span>
+      </div>
       </div>
     );
   }

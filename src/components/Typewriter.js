@@ -37,7 +37,7 @@ class Typewriter extends React.Component {
         {this.state.headingText}
         <span>&nbsp;</span>
         <br></br>
-        <p style={{marginLeft: '285px', fontSize: '27px', marginTop: '50px'}}>I make things!</p>
+        {/* <p style={{marginLeft: '285px', fontSize: '27px', marginTop: '50px'}}>I make things!</p> */}
       </div>
     );
   }

@@ -8,7 +8,7 @@ class Form extends Component {
 
   componentDidMount() {
     const form = document.querySelector('form');
-  const formResponse = document.querySelector('js-form-response');
+  // const formResponse = document.querySelector('js-form-response');
 
   form.onsubmit = e => {
     e.preventDefault();
@@ -35,7 +35,7 @@ class Form extends Component {
       if (response.target.status === 200) {
         // The form submission was successful
         form.reset();
-        formResponse.innerHTML = 'Thanks for the message. I’ll be in touch shortly.';
+        // formResponse.innerHTML = 'Thanks for the message. I’ll be in touch shortly.';
       } else {
         // The form submission failed
         alert('Something went wrong')
@@ -47,24 +47,23 @@ class Form extends Component {
 
   render() {
     return (
-      <div id="js-form-response">
+      // <div id="js-form-response">
       <form action="https://e44yvqrzdi.execute-api.us-east-1.amazonaws.com/dev" method="POST">
-      <label>
-        Name
-        <input type="text" name="name" required/>
+        <p>Contact me via a serverless lambda hosted on aws!</p>
+      <label style={{marginRight: '2px'}}>
+        Name:
+        <input style={{marginRight: '20px'}} type="text" name="name" required/>
       </label>
-      <label>
-        Email
-        <input type="email" name="reply_to" required/>
+      <label style={{marginRight: '2px'}}>
+        Email:
+        <input style={{marginRight: '20px'}} type="email" name="reply_to" required/>
       </label>
-      <label>
+      <label style={{marginRight: '2px'}}>
         Message:
-        <textarea name="message" required></textarea>
+        <textarea style={{marginRight: '20px'}} name="message" required></textarea>
       </label>
       <button type="submit">Send Message</button>
     </form>
-    <p id="js-form-response"></p>
-    </div>
     )
   }
 }
