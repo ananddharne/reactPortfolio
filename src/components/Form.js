@@ -20,7 +20,7 @@ class Form extends Component {
 
     // Log what our lambda function will receive
     console.log(JSON.stringify(data));
-
+    console.log(data)
     // Construct an HTTP request
     var xhr = new XMLHttpRequest();
     xhr.open(form.method, form.action, true);
@@ -37,6 +37,7 @@ class Form extends Component {
         form.reset();
         // formResponse.innerHTML = 'Thanks for the message. I’ll be in touch shortly.';
       } else {
+        form.reset();
         // The form submission failed
         alert('Something went wrong')
         console.error(JSON.parse(response.target.response).message);
@@ -48,7 +49,7 @@ class Form extends Component {
   render() {
     return (
       // <div id="js-form-response">
-      <form action="https://e44yvqrzdi.execute-api.us-east-1.amazonaws.com/dev" method="POST">
+      <form action="https://hz03bsqszl.execute-api.us-east-1.amazonaws.com/default/serverlessAppFunction" method="POST">
         <p>Contact me via a serverless lambda hosted on aws!</p>
       <label style={{marginRight: '2px'}}>
         Name:
