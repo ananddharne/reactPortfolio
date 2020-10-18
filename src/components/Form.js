@@ -50,7 +50,7 @@ class Form extends Component {
     return (
       // <div id="js-form-response">
       <form action="https://hz03bsqszl.execute-api.us-east-1.amazonaws.com/default/serverlessAppFunction" method="POST">
-        <p>Contact me via a serverless lambda hosted on aws!</p>
+        <p>Send me an email via a serverless lambda!</p>
       <label style={{marginRight: '2px'}}>
         Name:
         <input style={{marginRight: '20px'}} type="text" name="name" required/>
