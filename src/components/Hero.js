@@ -15,7 +15,7 @@ class Hero extends React.PureComponent {
         angle: 90,
         spread: 960,
         startVelocity: 60,
-        elementCount: 11,
+        elementCount: 20,
         dragFriction: 0.12,
         duration: 3000,
         stagger: 3,
