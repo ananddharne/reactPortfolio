@@ -15,7 +15,7 @@
 
   .hero-title {
     font-family: 'Monaco', Consolas, 'Lucida Console', monospace;
-    font-size: 4.5em;
+    font-size: 3.5em;
     color: $purple;
 
     &:before {
@@ -23,7 +23,7 @@
     }
 
     @include mobile {
-      font-size: 2.3em;
+      font-size: 1.8em;
     }
 
     span {
@@ -37,6 +37,18 @@
       }
     }
   }
+
+  .make-break {
+    font-size: 30px;
+    margin-left: 7.2%;
+    color: #747fe0;
+
+     @include mobile {
+    font-size: 20px;
+    }
+  }
+
+ 
 
   .hero-description {
     font-family: 'Camphor', Open Sans, Segoe UI, sans-serif;
