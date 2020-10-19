@@ -39,7 +39,7 @@ class Hero extends React.PureComponent {
     // this.headingText.style.display = 'none'
     // const elem = document.getElementsByClassName('hero-title')
     // elem[0].style.display = 'none'
-    e.target.innerHTML = 'I BREAK THINGS'
+    e.target.innerHTML = 'I BREAK THEM'
     const elem1 = document.getElementsByClassName('make-break')
     elem1[0].innerHTML = ''
     console.log(e.target)
@@ -67,7 +67,7 @@ class Hero extends React.PureComponent {
         <Typewriter className="hero-title" headingText={this.state.headingTexts} />
         </div>
         <br></br>
-        <span className='make-break' style={{fontSize: '24px', textAlign: 'center', color: "#747fe0" }}> <b>I MAKE THINGS</b></span>
+        <span className='make-break' style={{fontSize: '40px', textAlign: 'center', color: "#747fe0" }}> <b>I MAKE THINGS</b></span>
         <div className="hero-description">
           I am a web developer leaning towards full stack development at <a href="https://www.gethappie.me/"> Happie.</a> My passion is building simple,
           beautiful user experiences. At my current job, I work on all stages of the SDLC lifecycle; as part of QA automation, setting up the test environment, writing tests and handling CI/CD pipelines. Work with dockers and sporadically with gcr(google cloud registry) to maintain and configure images. I am proficient with Linux, predominantly Arch and Ubuntu. <br />Check out my{' '}
