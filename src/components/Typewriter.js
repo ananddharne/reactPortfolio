@@ -15,6 +15,8 @@ class Typewriter extends React.Component {
 
     text.split('').forEach(c => {
       typeSpeed += Math.random() * (maxTypeSpeed - minTypeSpeed) + minTypeSpeed;
+      // console.log(typeSpeed)
+      // typeSpeed = Math.random() * 8;
       setTimeout(() => {
         str += c;
         this.setState({ headingText: str });
@@ -45,9 +47,9 @@ class Typewriter extends React.Component {
 
 Typewriter.defaultProps = {
   headingText: 'Give me something to type!',
-  minTypeSpeed: 50,
-  maxTypeSpeed: 90,
-  initDelay: 700,
+  minTypeSpeed: 10,
+  maxTypeSpeed: 50,
+  initDelay: 0,
 };
 
 export default Typewriter;
