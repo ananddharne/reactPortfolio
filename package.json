@@ -29,7 +29,7 @@
     "@fortawesome/fontawesome-free-solid": "5.0.13",
     "@fortawesome/react-fontawesome": "0.0.20",
     "aphrodite": "^2.4.0",
-    "aws-sdk": "^2.766.0",
+    "aws-sdk": "^2.814.0",
     "canvas-sketch": "^0.7.4",
     "logrocket": "^1.0.14",
     "radium": "^0.26.0",
