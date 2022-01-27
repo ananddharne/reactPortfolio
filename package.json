@@ -38,7 +38,7 @@
     "react-dom-confetti": "^0.2.0",
     "react-scrollchor": "5.1.0",
     "sls": "^0.1.0",
-    "three": "^0.120.1",
+    "three": "^0.137.0",
     "three-bmfont-text": "^3.0.1"
   }
 }
