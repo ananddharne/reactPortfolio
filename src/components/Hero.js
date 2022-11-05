@@ -49,7 +49,7 @@ function Hero() {
               dragFriction: 0.12,
               duration: 3000,
               stagger: 3,
-              width: "20px",
+              width: "8px",
               height: "50px",
               perspective: "-500px",
               colors: ["#747fe0"]
