@@ -1,2 +1,2 @@
 # reactPortfolio
-Single page portfolio built in reactJS - https://adharne.netlify.com
+Single page portfolio built in reactJS - https://adharnez.netlify.app
